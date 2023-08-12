@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <title>StoreT</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" class="logo">
+                </a>
+            </div>
+            <a href="index.html">
+                <h2 class="title">StoreT</h2>
+            </a>
+            <div class="navMenu" id="filter-btns">
+                <button class="btn-category" data-banana="jeans">JEANS</button>
+                <button class="btn-category" data-banana="bags">BAGS</button>
+                <button class="btn-category" data-banana="shirts">SHIRTS</button>
+                <button class="btn-category" data-banana="shoes">SHOES</button>
+            </div>
+            <div class="cart">
+                <i class="bi bi-cart2"></i>
+                <div class="cartData"></div>
+
+            </div>
+        </nav>
+    </header>
+    <div class="filters">
+        <div class="filter">
+            <i class="bi bi-filter-square"></i>
+            <div class="filter-selection" style="display: none">
+                <select class="filterMethod">
+                    <option value="color">color</option>
+                    <option value="rating">rating</option>
+                </select>
+            </div>
+        </div>
+        <div class="sort">
+            <i class="bi bi-funnel">
+                <select class="sort-order">
+                    <option value="">Sort Order</option>
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                    <option value="a-z">a-z</option>
+                    <option value="z-a">z-a</option>
+                </select>
+            </i>
+
+        </div>
+
+    </div>
+
+    <h1 class="categoryName"></h1>
+    <section id="container">
+
+    </section>
+
+    <section>
+        <div class="load-more-section">
+            <button id="load-more">Load More</button>
+            <div id="product-count"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="#">T&C</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+    <script type="module" src="app.js"></script>
+    <script type="module" src="filter.js"></script>
+
+
+</body>
+
+</html>
