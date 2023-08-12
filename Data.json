@@ -112,7 +112,7 @@
   {
     "id": 11,
     "name": "Brown Leather Handbag",
-    "description": "An essential accessory for any wardrobe, this handbag features a timeless design that matches any outfit",
+    "description": "this handbag features a timeless design that matches any outfit",
     "price": 50.00,
     "discountedPrice": 45.00,
     "image": "images/bag4.jpg",
